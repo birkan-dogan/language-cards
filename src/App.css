@@ -4,7 +4,7 @@
     rgb(248, 226, 183),
     rgb(241, 203, 134)
   );
-  height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
