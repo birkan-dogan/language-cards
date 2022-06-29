@@ -14,6 +14,7 @@
   padding: 0.2rem 0rem;
   text-transform: uppercase;
   cursor: pointer;
+  position: relative;
 }
 .card img {
   /* max-width: auto; */
@@ -25,5 +26,16 @@
   transform: scale(1.3);
 }
 .card:hover {
-  box-shadow: 1px 5px 10px crimson;
+  box-shadow: 1px 5px 10px #2b24b2;
+}
+.card .list {
+  list-style-type: none;
+  text-align: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 0.9rem;
+}
+@media (max-width: 590px) {
+  .card {
+    width: 20vw;
+  }
 }

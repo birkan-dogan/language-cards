@@ -5,8 +5,9 @@ const Main = (languages) => {
   //   console.log(languages);
   const { data } = languages;
   return (
-    <div>
+    <div className="cards-area-container">
       <h1>Languages</h1>
+      <div className="bars"></div>
       <div className="container">
         {data.map((item, index) => {
           const { name, img, options } = item;

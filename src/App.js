@@ -6,7 +6,7 @@ import { languages } from "./helper/data";
 function App() {
   return (
     <div className="App">
-      <img src={img} style={{ width: "9rem", marginTop: "1rem" }} />
+      <img src={img} style={{ height: "150px", marginTop: "1rem" }} />
       <Main data={languages} />
     </div>
   );
